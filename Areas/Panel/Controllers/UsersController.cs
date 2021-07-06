@@ -3,16 +3,16 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using semenarna_id2.Areas.Panel.ViewModels;
-using semenarna_id2.Data;
-using semenarna_id2.Models;
-using semenarna_id2.ViewModels;
+using app.Areas.Panel.ViewModels;
+using app.Data;
+using app.Models;
+using app.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace semenarna_id2.Areas.Panel.Controllers {
+namespace app.Areas.Panel.Controllers {
     [Authorize(Roles = "Admin")]
     [Area("Panel")]
     public class UsersController : Controller {

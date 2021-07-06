@@ -10,7 +10,7 @@ using System.Net.Http;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace semenarna_id2 {
+namespace app {
     public class Mailer {
 
         readonly string senderAddress;

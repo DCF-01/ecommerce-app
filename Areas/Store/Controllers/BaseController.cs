@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using semenarna_id2.Areas.Store.ViewModels;
-using semenarna_id2.Data;
-using semenarna_id2.Models;
+using app.Areas.Store.ViewModels;
+using app.Data;
+using app.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace semenarna_id2.Areas.Store.Controllers {
+namespace app.Areas.Store.Controllers {
     [Area("Store")]
     public class BaseController : Controller {
         private ApplicationDbContext _ctx;

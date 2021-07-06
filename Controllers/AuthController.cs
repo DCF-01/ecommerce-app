@@ -3,16 +3,16 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RazorLight;
-using semenarna_id2.Data;
-using semenarna_id2.Models;
-using semenarna_id2.ViewModels;
+using app.Data;
+using app.Models;
+using app.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace semenarna_id2.Controllers {
+namespace app.Controllers {
     public class AuthController : Controller {
 
         private SignInManager<ApplicationUser> _signInManager;

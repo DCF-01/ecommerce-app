@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace semenarna_id2.Migrations
+namespace app.Migrations
 {
     public partial class promotionEdit2 : Migration
     {

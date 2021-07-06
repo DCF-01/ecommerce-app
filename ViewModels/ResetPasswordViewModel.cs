@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace semenarna_id2.ViewModels {
+namespace app.ViewModels {
     public class ResetPasswordViewModel {
         [Required]
         [DataType(DataType.Password)]

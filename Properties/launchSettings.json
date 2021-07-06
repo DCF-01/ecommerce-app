@@ -14,7 +14,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "semenarna_id2": {
+    "app": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

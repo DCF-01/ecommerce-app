@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace semenarna_id2.Migrations
+namespace app.Migrations
 {
     public partial class addedPromotion : Migration
     {

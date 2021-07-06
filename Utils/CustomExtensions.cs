@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace semenarna_id2.Utils {
+namespace app.Utils {
     
     public static class IFormFileExtension {
         public static async Task<byte[]> GetBytesAsync(this IFormFile file) {

@@ -1,6 +1,6 @@
 using System;
 
-namespace semenarna_id2.Models {
+namespace app.Models {
     public class ErrorViewModel {
         public string RequestId { get; set; }
 

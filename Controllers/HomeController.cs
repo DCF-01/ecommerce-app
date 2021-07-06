@@ -1,17 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using semenarna_id2.Areas.Panel.ViewModels;
-using semenarna_id2.Data;
-using semenarna_id2.Models;
-using semenarna_id2.ViewModels;
+using app.Areas.Panel.ViewModels;
+using app.Data;
+using app.Models;
+using app.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace semenarna_id2.Controllers {
+namespace app.Controllers {
     public class HomeController : Controller {
         private readonly ILogger<HomeController> _logger;
         private readonly ApplicationDbContext _ctx;

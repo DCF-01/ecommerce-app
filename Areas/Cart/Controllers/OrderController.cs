@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using semenarna_id2.Areas.Cart.ViewModels;
-using semenarna_id2.Data;
-using semenarna_id2.Models;
+using app.Areas.Cart.ViewModels;
+using app.Data;
+using app.Models;
 using System;
 using System.Globalization;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Text;
 
-namespace semenarna_id2.Areas.Cart.Controllers {
+namespace app.Areas.Cart.Controllers {
     [Area("Cart")]
     public class OrderController : Controller {
         private readonly ApplicationDbContext _ctx;
