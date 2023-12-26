@@ -363,8 +363,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/wwwroot/tp-lib/img
-/wwwroot/tp-lib/fonts
+src/wwwroot/tp-lib/img
+src/wwwroot/tp-lib/fonts
 
 # app settings file
-appsettings.json
+src/appsettings.json
