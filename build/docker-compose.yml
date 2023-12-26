@@ -2,13 +2,13 @@ version: '3.8'
 
 services:
   db:
-    build: .
+    image: postgres
     ports:
       - '8081:5432'
     environment:
-      POSTGRES_USER: value
-      POSTGRES_PASSWORD: pass
-      POSTGRES_DB: db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: somepassword
+      POSTGRES_DB: appDb
     restart: unless-stopped
     volumes: 
       - C:\Users\rzver\source\repos\ecommerce-app\build\data:/var/lib/postgresql/data
